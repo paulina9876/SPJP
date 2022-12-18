@@ -1,0 +1,86 @@
+zadanie3.c
+#include <stdio.h>
+
+int main ( void )
+
+{
+int a, b;
+a = 3;
+b = 4;
+}
+
+{
+int c; 
+c = a;
+a = b;
+b = c;
+}
+
+
+zadanie2.c
+#include <stdio.h>
+
+int main( void )
+{
+    int tab[10];
+    int[] liczby = [A, B, C, D, E, F, G, H, I, J];
+    printf ("Podaj liczby\n");
+    int c=scanf("%d" ,"&tab[i]");
+    
+}
+
+
+}
+
+zadanie4.c
+#include <stdio.h>
+
+int main ( void )
+
+{
+     int tab [i]-(int)'0';
+     int[] liczby = [4, 6, 3, 8, 9];
+     
+     int a;
+     printf ("Największa liczba\n");
+ 
+     a = 0;
+     
+}
+
+
+zadanie5.c
+#include <stdio.h>
+
+int main ()
+
+{
+
+    int tab[] = (a, b, c);
+    a = 7;
+    b = 2;
+    c = 8;
+    
+    for(int i=0;i<3;i++);
+    sort(tab, tab+3);
+    printf<<tab[i]<<' ';
+    return 0;
+    
+
+}
+
+zadanie6.c
+#include <stdio.h>
+
+int main ()
+
+{
+    int tab [n];
+    tab[0] = 1;
+    tab[1] = 2;
+    tab[2] = 3;
+    tab[n-1] = n;
+    tab[n] = n+1;
+    for (int n>1; tab[n]=n+1; tab[n-1]=n);
+    printf("Podaj n\n");
+}
