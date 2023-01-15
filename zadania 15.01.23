@@ -1,0 +1,135 @@
+zadanie1.c
+
+#include<stdio.h>
+
+struct Dane
+{
+    char *imie;
+    char *nazwisko;
+    int nr_telefonu;
+}bartek;
+
+int main()
+{
+    struct Dane kamil;
+    
+    kamil.imie="Kamil";
+    kamil.nazwisko="Nowak";
+    kamil.nr_telefonu=123456789;
+    
+    bartek.imie="Bartek";
+    bartek.nazwisko="Kowalski";
+    bartek.nr_telefonu=987654321;
+    
+    printf(" imie: %s\n nazwisko: %s\n nr telefonu: %d\n ",kamil.imie,kamil.nazwisko,kamil.nr_telefonu);
+    printf("\n imie: %s\n nazwisko: %s\n nr telefonu: %d\n ",bartek.imie,bartek.nazwisko,bartek.nr_telefonu);
+    
+    return 0;
+    
+}
+
+zadanie2.c
+
+#include<stdio.h>
+
+struct Punkt
+{
+    int x;
+    int y;
+ 
+}A;
+
+
+int main()
+{
+    struct Punkt A;
+    
+    A.x=5;
+    A.y=7;
+    
+    printf("Wspolrzedne punktu na plaszczyznie: %d , %d\n",A.x,A.y);
+    
+    
+    return 0;
+}
+
+zadanie3.c
+
+#include<stdio.h>
+
+struct Trojkat
+{
+    int x;
+    int y;
+    
+}A,B,C;
+
+
+int main()
+{
+    struct Trojkat;
+    
+    A.x=5;
+    A.y=7;
+    
+    B.x=4;
+    B.y=8;
+    
+    C.x=1;
+    C.y=9;
+    
+    
+    if(A.x/=B.x && B.x/=C.x && C.x/=A.x && A.y/=B.y && B.y/=C.y && A.y/=C.y)
+{
+    printf("Punkty w strukturze tworza poprawny trojkat.\n");
+}
+    else
+{
+    printf("Punkty w strukturze nie tworza poprawnego trojkatu.\n ");
+}
+
+
+
+    return 0;
+}
+
+
+zadanie4.c
+
+#include<stdio.h>
+
+struct Punkt
+{
+    int x;
+    int y;
+ 
+}A;
+
+
+int main()
+{
+    struct Punkt A;
+    
+    A.x=5;
+    A.y=7;
+    
+    B.x=8;
+    B.y=3;
+    
+    printf("Wspolrzedne punktu A na plaszczyznie: %d , %d\n",A.x,A.y);
+    printf("Wspolrzedne punktu B na plaszczyznie: %d , %d\n",B.x,B.y);
+    
+    void 
+    {
+        
+    }
+    
+    
+    return 0;
+}
+
+
+zadanie8.c
+za pomoca: 
+wskaznikow
+NULL
